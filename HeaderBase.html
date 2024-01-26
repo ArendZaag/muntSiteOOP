@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header with Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    main {
+      padding: 60px 20px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Empty Header -->
+  </header>
+
+  <main>
+    <!-- Your content goes here -->
+    <h1>Main Content</h1>
+    <p>This is the main content of your page.</p>
+  </main>
+
+</body>
+</html>
